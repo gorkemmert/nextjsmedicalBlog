@@ -4,7 +4,7 @@ const ContactForm2 = () => {
   return (
     <form action="https://formsubmit.co/info@pharmalect.com" method="POST">
   <input type="hidden" name="_captcha" value="false" />
-  <input type="hidden" name="_next" value="http://localhost:3000/thanks" /> 
+  <input type="hidden" name="_next" value="http://pharmalect.com/thanks" /> 
   <div className="messages" />
   <div className="row controls">
     {/* Ad */}

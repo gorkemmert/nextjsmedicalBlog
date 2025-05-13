@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata = {
   title: "404 || PPHARMALECT MEDİKAL ÇEVİRİ VE DANIŞMANLIK HİZMETLERİ",
 };
-const Pricing = () => {
+const NotFound = () => {
   return (
     <>
       {/* <!-- 
@@ -54,4 +54,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default NotFound;

@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-      appDir: true,
-    },
-    i18n: {
-      locales: ['tr', 'en'],
-      defaultLocale: 'tr',
-    },
-  }
+  i18n: {
+    locales: ['tr', 'en'],
+    defaultLocale: 'tr',
+  },
+  trailingSlash: true,
+  exportTrailingSlash: true,
+};
 
 export default nextConfig;
