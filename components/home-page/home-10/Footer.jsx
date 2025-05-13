@@ -19,7 +19,7 @@ const Footer = () => {
       links: [
         { label: "SSS", href: "/pages-menu/faq" },
         // { label: "Blog", href: "/blog/blog-v1" },
-        { label: "Bize Ulaşın", href: "/contact/contact-v2" },
+        { label: "Bize Ulaşın", href: "/contact" },
         // { label: "Destek", href: "/contact" },
       ],
       classes: "col-lg-3 col-sm-4 mb-30",

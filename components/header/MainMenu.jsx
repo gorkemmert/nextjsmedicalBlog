@@ -7,6 +7,7 @@ import {
   portfolioItems,
   blogItems,
   contactItems,
+  serviceItems
 } from "@/data/menu";
 
 import Image from "next/image";
@@ -59,7 +60,7 @@ const MainMenu = () => {
             </Link>
           </li>
 
-          <li className="nav-item dropdown mega-dropdown-md">
+          {/* <li className="nav-item dropdown mega-dropdown-md">
             <a
               // className="nav-link dropdown-toggle active-menu"
               href="#"
@@ -114,33 +115,13 @@ const MainMenu = () => {
                 </div>
               </li>
             </ul>
-          </li>
-          
-          <li className="nav-item">
-            <Link
-              href="/pages-menu/faq"
-              className={`nav-link ${isActive("/sss") ? "active-menu" : ""}`}
-            >
-              Sıkça Sorulan Sorular
-            </Link>
-          </li>
+          </li> */}
 
-          <li className="nav-item">
-            <Link
-              href="/pages-menu/about-us-v3"
-              className={`nav-link ${isActive("/hakkımızda") ? "active-menu" : ""}`}
-            >
-              Hakkımızda
-            </Link>
-          </li>
-
-          {/* End li (home mega menu) */}
-
-          {/* <li className="nav-item  dropdown">
+          <li className="nav-item  dropdown">
             <a
               // className="nav-link dropdown-toggle"
               className={
-                pagesItems.some((menu) =>
+                serviceItems.some((menu) =>
                   menu.subItems.some((elm) => isActive(elm.link))
                 ) ||
                 isActive("/pages-menu/pricing") ||
@@ -154,10 +135,10 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              Pages
+              Hizmetlerimiz
             </a>
             <ul className="dropdown-menu">
-              {pagesItems.map((item, index) => (
+              {serviceItems.map((item, index) => (
                 <li className="dropdown-submenu dropdown" key={index}>
                   <a
                     // className="dropdown-item dropdown-toggle"
@@ -190,7 +171,29 @@ const MainMenu = () => {
                 </li>
               ))}
             </ul>
-          </li> */}
+          </li>
+          
+          <li className="nav-item">
+            <Link
+              href="/pages-menu/faq"
+              className={`nav-link ${isActive("/sss") ? "active-menu" : ""}`}
+            >
+              Sıkça Sorulan Sorular
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              href="/pages-menu/about-us-v3"
+              className={`nav-link ${isActive("/hakkımızda") ? "active-menu" : ""}`}
+            >
+              Hakkımızda
+            </Link>
+          </li>
+
+          {/* End li (home mega menu) */}
+
+          
           {/* End li (pages) */}
 
           {/* <li className="nav-item dropdown">
@@ -297,7 +300,7 @@ const MainMenu = () => {
         <div className="mobile-content d-block d-lg-none">
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
             <Link
-              href="/contact/contact-v2"
+              href="/contact"
               className="contact-btn-one fs-16 fw-500 text-white tran3s"
             >
               Bize Ulaşın

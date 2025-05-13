@@ -43,7 +43,7 @@ const Header = () => {
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
             <Link
-              href="/contact/contact-v2"
+              href="/contact"
               className="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block"
             >
               Bize Ulaşın

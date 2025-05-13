@@ -61,7 +61,7 @@ const Faq = () => {
 
             <div className="text-center  mt-80 lg-mt-50" data-aos="fade-up">
               <h3 className="fw-bold tx-dark mb-30">Cevabınızı alamadınız mı?</h3>
-              <Link href="/contact/contact-v2" className="btn-two fw-500 tran3s">
+              <Link href="/contact" className="btn-two fw-500 tran3s">
                 İletişime Geç
               </Link>
             </div>

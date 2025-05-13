@@ -2,8 +2,8 @@ export const menuItems = [
   {
     title: "Beşeri Tıbbi Ürünler",
     items: [
-      { title: "İlaç Ruhsatlandırma", link: "services/licensing" },
-      { title: "Ruhsat Devri", link: "services/licensing" },
+      { title: "İlaç Ruhsatlandırma", link: "pages-menu/service-v4" },
+      { title: "Ruhsat Devri", link: "/products" },
       { title: "Ruhsat Yenileme", link: "services/licensing" },
       { title: "Varyasyon Başvuruları", link: "services/licensing" },
       { title: "GMP Başvuruları", link: "services/licensing" },
@@ -45,54 +45,90 @@ export const menuItems = [
   },
 ];
 
+
+export const serviceItems = [
+  {
+    title: "Beşeri Tıbbi Ürünler",
+    subItems: [
+      { title: "İlaç Ruhsatlandırma", link: "/products" },
+      { title: "Ruhsat Devri", link: "/products" },
+      { title: "Ruhsat Yenileme", link: "/products" },
+      { title: "Varyasyon Başvuruları", link: "/products" },
+      { title: "GMP Başvuruları", link: "/products" },
+      { title: "Fiyat başvuruları", link: "/products" },
+      { title: "SGK Başvuru Dosyası Takibi", link: "/products" },
+      { title: "Satış İzni", link: "/products" },
+      { title: "KÜB/KT Hazırlama", link: "/products" },
+    ],
+  },
+  {
+    title: "Tıbbi Cihazlar",
+    subItems: [
+      { title: "Firma Kaydı", link: "/devices" },
+      { title: "Belge Kaydı", link: "/devices" },
+      { title: "Tıbbi cihaz kaydı", link: "/devices" },
+      { title: "MDD / MDR", link: "/devices" },
+    ],
+  },
+  {
+    title: "Medikal Çeviri",
+    subItems: [
+      { title: "Ruhsat dosyası hazırlama ve çevirisi", link: "/translation" },
+      { title: "Tıbbi cihaz kullanım talimatı ve doküman çevirisi", link: "/translation" },
+      { title: "Bilimsel tez, makale ve araştırma çevirisi", link: "/translation" },
+    ],
+  },
+];
+
+
 export const pagesItems = [
   {
     title: "About Us",
     subItems: [
-      { title: "About - Insurance", link: "/pages-menu/about-us-v1" },
-      { title: "About - Real Estate", link: "/pages-menu/about-us-v2" },
-      { title: "About - Agency", link: "/pages-menu/about-us-v3" },
-      { title: "About - Lead Generation", link: "/pages-menu/about-us-v4" },
+      { title: "About - Insurance", link: "/about-us-v1" },
+      { title: "About - Real Estate", link: "/about-us-v2" },
+      { title: "About - Agency", link: "/about-us-v3" },
+      { title: "About - Lead Generation", link: "/about-us-v4" },
     ],
   },
   {
     title: "Services",
     subItems: [
-      { title: "Service - Insurance", link: "/pages-menu/service-v1" },
-      { title: "Service - Real Estate", link: "/pages-menu/service-v2" },
-      { title: "Service Lead Generation", link: "/pages-menu/service-v3" },
-      { title: "Service Agency", link: "/pages-menu/service-v4" },
-      { title: "Service Details", link: "/pages-menu/service-details" },
+      { title: "Service - Insurance", link: "/service-v1" },
+      { title: "Service - Real Estate", link: "/service-v2" },
+      { title: "Service Lead Generation", link: "/service-v3" },
+      { title: "Service Agency", link: "/service-v4" },
+      { title: "Service Details", link: "/service-details" },
     ],
   },
   {
     title: "Our Team",
     subItems: [
-      { title: "Team One", link: "/pages-menu/team-v1" },
-      { title: "Team Two", link: "/pages-menu/team-v2" },
+      { title: "Team One", link: "/team-v1" },
+      { title: "Team Two", link: "/team-v2" },
     ],
   },
 
   {
     title: "Pricing",
     subItems: [
-      { title: "Pricing", link: "/pages-menu/pricing" },
-      { title: "Pricing - Sass Product", link: "/pages-menu/pricing-v2" },
-      { title: "Pricing -  Web Hosting", link: "/pages-menu/pricing-v3" },
+      { title: "Pricing", link: "/pricing" },
+      { title: "Pricing - Sass Product", link: "/pricing-v2" },
+      { title: "Pricing -  Web Hosting", link: "/pricing-v3" },
     ],
   },
   {
     title: "Features",
     subItems: [
-      { title: "Features - Sass Product", link: "/pages-menu/features-v1" },
-      { title: "Features - Web Hosting", link: "/pages-menu/features-v2" },
+      { title: "Features - Sass Product", link: "/features-v1" },
+      { title: "Features - Web Hosting", link: "/features-v2" },
     ],
   },
   {
     title: "Other Pages",
     subItems: [
-      { title: "Testimonials", link: "/pages-menu/testimonials" },
-      { title: "FAQ", link: "/pages-menu/faq" },
+      { title: "Testimonials", link: "/testimonials" },
+      { title: "FAQ", link: "/faq" },
       { title: "Signin", link: "/login" },
       { title: "Signup", link: "/signup" },
       { title: "404 Error", link: "/404" },
@@ -143,8 +179,8 @@ export const navItems = [
       { title: "Lead Generation", link: "/home/lead-generation" },
     ],
   },
-  { title: "About", link: "/pages-menu/about-us-v1" },
-  { title: "Service", link: "/pages-menu/service-v1" },
+  { title: "About", link: "/about-us-v1" },
+  { title: "Service", link: "/service-v1" },
   { title: "Portfolio", link: "/portfolio/portfolio-v1" },
   { title: "Grid With sidebar", link: "/blog/blog-v2" },
   { title: "Contact us", link: "/contact/contact-v1" },

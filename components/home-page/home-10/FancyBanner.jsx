@@ -18,7 +18,7 @@ const FancyBanner = () => {
               Risksiz bir şekilde en doğru adımı birlikte atalım!.
             </p>
             <a
-              href="/contact/contact-v2"
+              href="/contact"
               className="btn-two fs-18 fw-500"
               data-aos="fade-up"
               data-aos-delay="200"
