@@ -78,14 +78,7 @@ const ContactV2 = () => {
             <Footer />
             <div className="bottom-footer">
               <p className="copyright text-center m0">
-                © {new Date().getFullYear()}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/user/ib-themes"
-                >
-                  ib-themes
-                </a>
+                © {new Date().getFullYear()} Pharmalect. Tüm hakları saklıdır.
               </p>
             </div>
           </div>
