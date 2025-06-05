@@ -18,10 +18,10 @@ const footerData = [
     title: "Legal",
     className: "col-lg-3 col-sm-4 mb-30",
     links: [
-      { label: "Terms of use", href: "/pages-menu/faq" },
-      { label: "Terms & conditions", href: "/pages-menu/faq" },
-      { label: "Privacy policy", href: "/pages-menu/faq" },
-      { label: "Cookie policy", href: "/pages-menu/faq" },
+      { label: "Terms of use", href: "/faq" },
+      { label: "Terms & conditions", href: "/faq" },
+      { label: "Privacy policy", href: "/faq" },
+      { label: "Cookie policy", href: "/faq" },
     ],
   },
   {

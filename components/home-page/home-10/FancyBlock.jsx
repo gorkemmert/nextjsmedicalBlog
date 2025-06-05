@@ -1,35 +1,35 @@
 const FancyBlock = () => {
   const images = [
     {
-      src: "/images/media/img_04.jpg",
+      src: "/images/media/img_04.png",
       alt: "media",
       className: "lazy-img rounded-3",
     },
-    {
-      src: "/images/shape/shape_15.svg",
-      alt: "media",
-      className: "lazy-img shapes shape-one",
-    },
-    {
-      src: "/images/shape/shape_16.svg",
-      alt: "media",
-      className: "lazy-img shapes shape-two",
-    },
-    {
-      src: "/images/shape/shape_17.svg",
-      alt: "media",
-      className: "lazy-img shapes shape-three",
-    },
-    {
-      src: "/images/shape/shape_18.svg",
-      alt: "media",
-      className: "lazy-img shapes shape-four",
-    },
-    {
-      src: "/images/shape/shape_19.svg",
-      alt: "media",
-      className: "lazy-img shapes shape-five",
-    },
+    // {
+    //   src: "/images/shape/shape_15.svg",
+    //   alt: "media",
+    //   className: "lazy-img shapes shape-one",
+    // },
+    // {
+    //   src: "/images/shape/shape_16.svg",
+    //   alt: "media",
+    //   className: "lazy-img shapes shape-two",
+    // },
+    // {
+    //   src: "/images/shape/shape_17.svg",
+    //   alt: "media",
+    //   className: "lazy-img shapes shape-three",
+    // },
+    // {
+    //   src: "/images/shape/shape_18.svg",
+    //   alt: "media",
+    //   className: "lazy-img shapes shape-four",
+    // },
+    // {
+    //   src: "/images/shape/shape_19.svg",
+    //   alt: "media",
+    //   className: "lazy-img shapes shape-five",
+    // },
   ];
 
   const data = {

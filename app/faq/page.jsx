@@ -5,7 +5,7 @@ import Header from "@/components/home-page/home-10/Header";
 import Footer from "@/components/home-page/home-10/Footer";
 import Link from "next/link";
 export const metadata = {
-  title: "Faq's || Jano - Creative Multipurpose React NextJS Template",
+  title: "Pharmalect || PHARMALECT MEDİKAL ÇEVİRİ VE DANIŞMANLIK HİZMETLERİ",
 };
 const Faq = () => {
   return (
@@ -27,9 +27,9 @@ const Faq = () => {
           <div className="row">
             <div className="col-lg-7 text-center m-auto" data-aos="fade-up">
               <div className="title-style-five">
-                <div className="sc-title-two fst-italic position-relative d-inline-block">
+                {/* <div className="sc-title-two fst-italic position-relative d-inline-block">
                   SSS
-                </div>
+                </div> */}
                 <h2 className="main-title fw-500 tx-dark">
                   Sorular &amp; Cevaplar
                 </h2>

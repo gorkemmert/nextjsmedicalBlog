@@ -8,7 +8,7 @@ const Footer = () => {
       links: [
         { label: "Ana Sayfa", href: "/" },
         // { label: "Pricing", href: "/pages-menu/pricing" },
-        { label: "Hakkımızda", href: "/pages-menu/about-us-v3" },
+        { label: "Hakkımızda", href: "/about" },
         { label: "Hizmetlerimiz", href: "/pages-menu/service-v1" },
         // { label: "Blog", href: "/blog/blog-v1" },
       ],
@@ -17,7 +17,7 @@ const Footer = () => {
     {
       title: "Help & Support",
       links: [
-        { label: "SSS", href: "/pages-menu/faq" },
+        { label: "SSS", href: "/faq" },
         // { label: "Blog", href: "/blog/blog-v1" },
         { label: "Bize Ulaşın", href: "/contact" },
         // { label: "Destek", href: "/contact" },
@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_01.png" alt="" width={95} />
+            <img src="/images/logo/logo_01.png" alt="" width={120} />
           </Link>
         </div>
         <img
@@ -65,8 +65,8 @@ const Footer = () => {
           info@pharmalect.com
         </a>
         <br />
-        <a href="tel:+905479971342" className="mobile tran3s fs-20 mt-20 mb-30">
-          +905479971342
+        <a href="tel:+905366383812" className="mobile tran3s fs-20 mt-20 mb-30">
+          +905366383812
         </a>
 
         {/* <Social /> */}

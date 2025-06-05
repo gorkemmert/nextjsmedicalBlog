@@ -14,7 +14,7 @@ const links = [
   {
     title: "Support",
     links: [
-      { title: "FAQ", url: "/pages-menu/faq" },
+      { title: "FAQ", url: "/faq" },
       { title: "Blog", url: "/blog/blog-v1" },
       { title: "Contact Us", url: "/contact" },
       { title: "Support", url: "/contact" },
@@ -23,11 +23,11 @@ const links = [
   {
     title: "Products",
     links: [
-      { title: "Take the tour", url: "/pages-menu/faq" },
-      { title: "Live chat", url: "/pages-menu/faq" },
-      { title: "Self-service", url: "/pages-menu/faq" },
-      { title: "Social", url: "/pages-menu/faq" },
-      { title: "Jano Reviews", url: "/pages-menu/faq" },
+      { title: "Take the tour", url: "/faq" },
+      { title: "Live chat", url: "/faq" },
+      { title: "Self-service", url: "/faq" },
+      { title: "Social", url: "/faq" },
+      { title: "Jano Reviews", url: "/faq" },
     ],
   },
 ];

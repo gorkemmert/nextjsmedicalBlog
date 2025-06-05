@@ -20,7 +20,7 @@ const BlockContact2 = () => {
         <>
           Bizi Arayın <br />
           <a href="tel:310.841.5500" className="call">
-            +905479971342
+            +905366383812
           </a>
         </>
       ),

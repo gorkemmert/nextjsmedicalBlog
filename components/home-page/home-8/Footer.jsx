@@ -18,21 +18,21 @@ const footerLinks = [
   {
     title: "Legal",
     links: [
-      { label: "Terms of use", href: "/pages-menu/faq" },
-      { label: "Terms & conditions", href: "/pages-menu/faq" },
-      { label: "Privacy policy", href: "/pages-menu/faq" },
-      { label: "Cookie policy", href: "/pages-menu/faq" },
+      { label: "Terms of use", href: "/faq" },
+      { label: "Terms & conditions", href: "/faq" },
+      { label: "Privacy policy", href: "/faq" },
+      { label: "Cookie policy", href: "/faq" },
     ],
   },
   {
     title: "Products",
     links: [
-      { label: "Take the tour", href: "/pages-menu/faq" },
-      { label: "Live chat", href: "/pages-menu/faq" },
-      { label: "Self-service", href: "/pages-menu/faq" },
-      { label: "Social", href: "/pages-menu/faq" },
-      { label: "Collaboration", href: "/pages-menu/faq" },
-      { label: "Jano Reviews", href: "/pages-menu/faq" },
+      { label: "Take the tour", href: "/faq" },
+      { label: "Live chat", href: "/faq" },
+      { label: "Self-service", href: "/faq" },
+      { label: "Social", href: "/faq" },
+      { label: "Collaboration", href: "/faq" },
+      { label: "Jano Reviews", href: "/faq" },
     ],
   },
 ];

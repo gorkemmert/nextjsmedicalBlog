@@ -16,7 +16,7 @@ const OurAim = ({isFromAbout}) => {
   ];
 
   const imageItems = [
-    { src: "/images/media/img_01.jpg", alt: "shape" },
+    { src: "/images/media/img_01.png", alt: "shape" },
     {
       src: "/images/shape/shape_09.svg",
       alt: "shape",

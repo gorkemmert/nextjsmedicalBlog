@@ -17,7 +17,7 @@ import Team4 from "@/components/team/Team4";
 import FancyBanner from "@/components/home-page/home-10/FancyBanner";
 
 export const metadata = {
-  title: "AboutUs V3 || Jano - Creative Multipurpose React NextJS Template",
+  title: "Pharmalect || PHARMALECT MEDİKAL ÇEVİRİ VE DANIŞMANLIK HİZMETLERİ",
 };
 const AboutUsV3 = () => {
   return (
@@ -86,7 +86,7 @@ const AboutUsV3 = () => {
                 <div className="title-style-one mt-30">
                   <div className="sc-title text-uppercase">Neden Biz?</div>
                   <h2 className="main-title fw-bold tx-dark">
-                  Neden Pharmalect'i <span>seçersin ?</span>
+                  Neden Pharmalect'i <span>seçmelisin?</span>
                   </h2>
                 </div>{" "}
                 {/* /.title-style-one */}
@@ -165,7 +165,7 @@ const AboutUsV3 = () => {
                 </p>
                 <h6 className="mb-30">Misyonumuz</h6>
                 <p className="text-lg tx-dark">
-                  Ruhsat dosyalarının medikal terminolojiye uygun, eksiksiz ve doğru şekilde çevrilmesini sağlayarak zaman ve kaynak kayıplarını ortadan kaldırmak. Müşterilerimizin küresel regülasyonlara uyum sağlamalarını kolaylaştırmak ve ruhsatlandırma süreçlerinde çözüm ortağı olmak..
+                  Ruhsat dosyalarının medikal terminolojiye uygun, eksiksiz ve doğru şekilde çevrilmesini sağlayarak zaman ve kaynak kayıplarını ortadan kaldırmak. Müşterilerimizin küresel regülasyonlara uyum sağlamalarını kolaylaştırmak ve ruhsatlandırma süreçlerinde çözüm ortağı olmak.
                 </p>
                 <div className="row">
                   {/* <Counter /> */}

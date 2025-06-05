@@ -175,7 +175,7 @@ const MainMenu = () => {
           
           <li className="nav-item">
             <Link
-              href="/pages-menu/faq"
+              href="/faq"
               className={`nav-link ${isActive("/sss") ? "active-menu" : ""}`}
             >
               Sıkça Sorulan Sorular
@@ -184,7 +184,7 @@ const MainMenu = () => {
 
           <li className="nav-item">
             <Link
-              href="/pages-menu/about-us-v3"
+              href="/about"
               className={`nav-link ${isActive("/hakkımızda") ? "active-menu" : ""}`}
             >
               Hakkımızda

@@ -34,42 +34,127 @@ const ServiceDetails = () => {
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Tıbbi Cihazlar</h2>
-                {/* <h3 id="file" className="mt-60 mb-20 scroll-mt-[120px] scroll-offset">Ruhsat dosyası hazırlama ve çevirisi</h3>
-                <p>Ruhsatlandırma süreçlerinde bir adım öne geçmek ve çeviri kaynaklı zaman kayıplarını önlemek adına ruhsatlandırma alanında deneyimli eczacılar tarafından ruhsat dosyanızın çevrilmesi</p>
+                <h3 id="firm" className="mt-60 mb-20 scroll-mt-[120px] scroll-offset">Firma Kaydı</h3>
+                <p>Tıbbi cihaz ve kozmetik ürünlerin ÜTS’de kaydı için firmaların Sağlık Bakanlığı sisteminde tanımlı ve yetkili
+                  olması gerekir. Bu işlem; firma kaydı, sorumlu müdür ataması ve imza yetkisi gibi adımları kapsar.</p>
                 <ul className="style-none list-item">
+                  <h6>Hizmetlerimiz:</h6>
                   <li>
-                    <p>İlaç ve tıbbi cihazların ruhsat alabilmesi için gerekli olan ruhsat dosyasının hazırlanması, titizlikle yapılması gereken bir süreçtir. Bu dosya, ürünün güvenliğini, etkinliğini ve kalite standartlarını belgelendirir. Ruhsat başvurusu için gereken tüm teknik dosyaların hazırlanması ve çevirisi, yasal gereklilikler doğrultusunda büyük önem taşır.</p>
+                    <p>Firma kaydının ÜTS üzerinden yapılması</p>
                   </li>
                   <li>
-                    <p>Biz, ruhsat dosyalarınızın tüm belgelerini eksiksiz bir şekilde hazırlıyor ve gerekli çevirileri gerçekleştiriyoruz. Ulusal ve uluslararası düzenlemelere uyumlu olarak, başvurularınızı hızlı ve sorunsuz bir şekilde tamamlamanıza yardımcı oluyoruz.</p>
+                    <p>Firma faaliyet kodlarının belirlenmesi</p>
+                  </li>
+                   <li>
+                    <p>Sorumlu teknik eleman veya müdür atama işlemleri</p>
+                  </li>
+                   <li>
+                    <p>E-imza ile yetkilendirme süreçlerinin yürütülmesi</p>
+                  </li>
+                   <li>
+                    <p>Firma bilgilerinin güncellenmesi veya devri işlemleri</p>
+                  </li>
+                </ul> 
+                <p>Kurum nezdinde eksiksiz ve zamanında bildirimlerle sürecin doğru işlemesini sağlıyoruz.</p>
+                <h3 id="doc" className="mt-60 mb-20">Belge Kaydı</h3>
+                <p>Tıbbi cihazların pazara sunulabilmesi için çeşitli teknik ve kalite belgelerinin temin edilmesi gerekir. Teknik
+                  belgelerin (Uygunluk beyanı (DoC) ve EC deklarasyon vb.) hazırlanması, denetim süreçlerine hazırlık ve
+                  başvuru dosyalarının oluşturulmasında uzmanız. Başvurularınızın olumlu sonuçlanması için size özel
+                  stratejiler geliştiriyoruz.</p>
+               
+                
+                <h3 id="dev" className="mt-60 mb-20">Tıbbi Cihaz Kaydı</h3>
+                <h6>Tıbbi Cihaz Danışmanlığı</h6>
+                <p>ÜTS (Ürün Takip Sistemi), Türkiye&#39;de tıbbi cihaz ve kozmetik ürünlerin izlenebilirliğini sağlamak amacıyla
+                  Sağlık Bakanlığı tarafından yürütülen dijital platformdur. Tıbbi cihazların pazara arz edilmeden önce ÜTS&#39;ye
+                  eksiksiz ve doğru şekilde kaydedilmesi zorunludur. Bu noktada doğru sınıflandırma, teknik dosya
+                  oluşturulması, ÜTS kaydı gibi işlemlerin profesyonelce yönetilmesi gerekir.</p>
+                <ul className="style-none list-item">
+                  <h6>Danışmanlık hizmetlerimiz:</h6>
+                   <li>
+                    <p>Cihazınızın sınıfına göre (Sınıf I, IIa, IIb, III) uygunluk belirlenmesi</p>
+                  </li>
+                   <li>
+                    <p>Temel güvenlik ve performans gerekliliklerinin sağlanması</p>
+                  </li>
+                   <li>
+                    <p>Teknik dosyanın hazırlanması veya mevcut dosyanın kontrol edilmesi</p>
+                  </li>
+                   <li>
+                    <p>Belge (CE, ISO, uygunluk beyanı) yükleme ve güncelleme</p>
+                  </li>
+                   <li>
+                    <p>ÜTS bildirim hatalarının tespiti ve düzeltilmesi</p>
+                  </li>
+                   <li>
+                    <p>ÜTS’ye kayıt ve satışa sunum öncesi yasal kontrollerin tamamlanması</p>
+                  </li>
+                  
+                </ul >   
+                <p>Hatalı kayıtlar satış ve denetim süreçlerinde sorun yaratabilir. Ürünlerinizin pazara en kısa sürede ve en
+                  doğru şekilde sunulması için tüm süreci sizin adınıza uçtan uca yönetiyoruz.</p>            
+                <h3 id="mdd" className="mt-60 mb-20">MDD/MDR Kaydı</h3>
+                <h6>MDD/MDR Geçiş ve Uyum Süreçleri</h6>
+                <p>Avrupa Birliği’nde 2021 yılında yürürlüğe giren MDR (Medical Device Regulation), önceki MDD (Medical
+                  Device Directive) mevzuatına göre çok daha kapsamlı ve katı gereklilikler içermektedir. Mevcut ürünlerin
+                  MDR’ye uyumu, özellikle CE belgelerinin devamlılığı açısından kritik önem taşır.</p>
+                <ul className="style-none list-item">
+                  <h6>Verdiğimiz hizmetler:</h6>
+                  <li>
+                    <p>Mevcut teknik dosyanızın MDR’ye göre analiz edilmesi</p>
+                  </li>
+                  <li>
+                    <p>MDR gerekliliklerine uygun yeni teknik dosya hazırlanması</p>
+                  </li>
+                  <li>
+                    <p>Notified body (onaylanmış kuruluş) süreci yönetimi</p>
+                  </li>
+                  <li>
+                    <p>Mevcut dosyaların MDR’ye uygun revizyonu</p>
+                  </li>
+                  <li>
+                    <p>Eksik belgelerin tamamlanması ve kaydı</p>
                   </li>
                 </ul>
-                <h3 id="devices" className="mt-60 mb-20">Tıbbi cihaz kullanım talimatı ve doküman çevirisi</h3>
-                <p>Tıbbi cihazlar için kullanım talimatları, ürünlerin güvenli ve doğru şekilde kullanılması adına kritik öneme sahiptir. Ayrıca, tıbbi cihazların yasal gerekliliklere uygunluğunu sağlamak için belgelerin doğru ve anlaşılır şekilde çevrilmesi gerekmektedir.</p>
-                <p>Tıbbi cihaz kullanım talimatları ve diğer teknik dokümanlar için çeviriyi doğru ve profesyonel bir şekilde gerçekleştiriyoruz. Tüm belgelerinizin yerel ve uluslararası gerekliliklere uygun olmasını sağlıyoruz, böylece yasal uyum ve kullanıcı güvenliği garanti altına alınır.</p>
-                
-                <h3 id="research" className="mt-60 mb-20">Bilimsel tez, makale ve araştırma çevirisi</h3>
-                <p>Bilimsel tezler, makaleler ve araştırma çalışmalarının doğru ve anlamlı bir şekilde çevrilmesi, akademik dünyada başarıyı sağlamak için oldukça önemlidir. Çeviri sürecinde, teknik terimler ve sektöre özgü dilin doğru kullanımı büyük bir titizlik gerektirir.</p>
-                <p>Bilimsel çeviriler konusunda uzman ekibimiz, tezler, makaleler ve araştırmalar için yüksek kaliteli çeviriler sunmaktadır. Çevirilerinizin akademik standartlara ve hedef dildeki bilimsel terminolojiye uygun olmasına özen gösteriyoruz.</p> */}
-               
-
+                <p> Türkiye ve Avrupa Birliği mevzuatlarına uygunluk için yanınızdayız. MDR’ye uyum sürecinizi adım adım
+                  planlayarak belge kaybı yaşamadan geçiş yapmanızı sağlıyoruz.</p>
+                <h3 id="koz" className="mt-60 mb-20">Kozmetik Kaydı</h3>
+                <h6>Kozmetik Ürün Danışmanlığı</h6>
+                <p>Kozmetik ürünlerin üretimi ve piyasaya arzı ciddi regülasyonlara tabidir. Hem insan sağlığını korumak hem
+                    de mevzuata uyum sağlamak adına ürün güvenlilik dosyalarının hazırlanması ve ÜTS bildirimlerinin
+                    eksiksiz yapılması gereklidir.</p>
+                <ul className="style-none list-item">
+                  <h6>Verdiğimiz hizmetler:</h6>
+                  <li>
+                    <p>Kozmetik ürünlerin ÜTS bildirimlerinin yapılması</p>
+                  </li>
+                  <li>
+                    <p>CPSR (Cosmetic Product Safety Report) hazırlanması</p>
+                  </li>
+                  <li>
+                    <p>PIF (Product Information File) oluşturulması</p>
+                  </li>
+                  <li>
+                    <p>Etiket ve ambalaj bilgilerinin mevzuata uygunluğu</p>
+                  </li>
+                  <li>
+                    <p>GMP (Good Manufacturing Practices) rehberliği</p>
+                  </li>
+                </ul>
+                <p>Ürünlerinizin sorunsuz şekilde piyasada yer alması için tüm süreci sizin adınıza yönetiyoruz.</p>
               </div>
             </div>
 
-            {/* <div className="col-xl-3 col-lg-4 col-md-8 order-lg-0">
+            <div className="col-xl-3 col-lg-4 col-md-8 order-lg-0">
               <div className="service-sidebar pe-xxl-5 md-mt-60">
               <div className="service-category mb-40">
-                <h4 className="tx-dark mb-15">Beşeri Tıbbi Ürün Hizmetlerimiz</h4>
+                <h4 className="tx-dark mb-15">Tıbbi Cihazlar</h4>
                 <ul className="style-none">
-                  <li><a href="#ruhsatlandirma">Ruhsatlandırma</a></li>
-                  <li><a href="#ruhsat-devri">Ruhsat Devri</a></li>
-                  <li><a href="#ruhsat-yenileme">Ruhsat Yenileme</a></li>
-                  <li><a href="#varyasyon-basvurulari">Varyasyon Başvuruları</a></li>
-                  <li><a href="#gmp-basvurulari">GMP Başvuruları</a></li>
-                  <li><a href="#fiyat-basvurulari">Fiyatlandırma</a></li>
-                  <li><a href="#sgk-basvurusu">SGK Takibi</a></li>
-                  <li><a href="#satis-izni">Satış İzni</a></li>
-                  <li><a href="#kub-kt">KÜB / KT Hazırlama</a></li>
+                  <li><a href="#firm">Firma Kaydı</a></li>
+                  <li><a href="#doc">Belge Kaydı</a></li>
+                  <li><a href="#dev">Tıbbi Cihaz Kaydı</a></li>
+                  <li><a href="#mdd">MDD/MDR Kaydı</a></li>
+                  <li><a href="#koz">Kozmetik Kaydı</a></li>
                 </ul>
               </div>
 
@@ -81,9 +166,9 @@ const ServiceDetails = () => {
                   <div className="name">- Pharmalect Ekibi</div>
                 </div>
                 <h4 className="tx-dark mb-15">Bizi Takip Edin</h4>
-                <Social />
+                {/* <Social /> */}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

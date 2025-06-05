@@ -16,7 +16,7 @@ const Footer = () => {
     {
       title: "Support",
       links: [
-        { label: "FAQ", url: "/pages-menu/faq" },
+        { label: "FAQ", url: "/faq" },
         { label: "Blog", url: "/blog/blog-v1" },
         { label: "Contact Us", url: "/contact" },
         { label: "Support", url: "/contact" },
@@ -26,11 +26,11 @@ const Footer = () => {
     {
       title: "Products",
       links: [
-        { label: "Take the tour", url: "/pages-menu/faq" },
-        { label: "Live chat", url: "/pages-menu/faq" },
-        { label: "Self-service", url: "/pages-menu/faq" },
-        { label: "Social", url: "/pages-menu/faq" },
-        { label: "Jano Reviews", url: "/pages-menu/faq" },
+        { label: "Take the tour", url: "/faq" },
+        { label: "Live chat", url: "/faq" },
+        { label: "Self-service", url: "/faq" },
+        { label: "Social", url: "/faq" },
+        { label: "Jano Reviews", url: "/faq" },
       ],
       className: "col-lg-2 col-md-3 col-sm-6 mb-30",
     },
